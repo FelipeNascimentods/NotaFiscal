@@ -1,0 +1,35 @@
+unit ProdutoDAO;
+
+interface
+
+uses dm, ZAbstractRODataset, ZAbstractDataset, ZDataset;
+
+  type
+    TProdutoDAO = class
+      private
+        zquery: TZQuery;
+      public
+        procedure pesquisarProduto;
+    end;
+
+implementation
+
+{ TProdutoDAO }
+
+procedure TProdutoDAO.pesquisarProduto;
+var
+  SQL: string;
+  zGet: TZQuery;
+begin
+  zGet            := TZQuery.Create(zquery);
+  zGet.Connection := dmConexao.conexao;
+
+  SQL := 'select * from produto';
+
+  zGet.Close;
+  zGet.SQL.Clear;
+  zGet.SQL.Text := SQL;
+  zGet.Open;
+end;
+
+end.

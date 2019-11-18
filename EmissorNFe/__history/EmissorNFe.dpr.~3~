@@ -1,0 +1,17 @@
+program EmissorNFe;
+
+uses
+  Vcl.Forms,
+  uMenu in 'forms\uMenu.pas' {frmMenu},
+  Produto in 'classes\Produto.pas',
+  dm in 'forms\dm.pas' {DataModule1: TDataModule};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TfrmMenu, frmMenu);
+  Application.CreateForm(TDataModule1, DataModule1);
+  Application.Run;
+end.

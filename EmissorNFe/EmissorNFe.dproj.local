@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2019/09/03 11:48:54.000.031,=C:\Users\suporte\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/09/05 09:08:04.000.853,=C:\Users\suporte\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/09/10 10:06:18.000.407,=C:\Users\suporte\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/09/16 11:14:50.000.130,=C:\Users\suporte\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/10/10 11:56:04.000.646,=C:\Users\suporte\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/10/17 10:14:26.000.625,=C:\Users\suporte\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/10/18 10:49:21.000.599,=C:\Users\suporte\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/11/18 09:42:16.000,=C:\Users\suporte\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/11/18 09:44:04.104,E:\Desenvolvimento\Projetos\Repositório GIT\NotaFiscal\EmissorNFe\forms\frmMenu.dfm=C:\Users\suporte\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2019/11/18 09:44:04.104,E:\Desenvolvimento\Projetos\Repositório GIT\NotaFiscal\EmissorNFe\forms\frmMenu.pas=C:\Users\suporte\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/11/18 09:44:34.425,E:\Desenvolvimento\Projetos\Repositório GIT\NotaFiscal\EmissorNFe\EmissorNFe.dproj=C:\Users\suporte\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2019/11/18 09:46:09.348,E:\Desenvolvimento\Projetos\Repositório GIT\NotaFiscal\EmissorNFe\forms\uMenu.dfm=E:\Desenvolvimento\Projetos\Repositório GIT\NotaFiscal\EmissorNFe\forms\frmMenu.dfm</Transaction>
+    <Transaction>2019/11/18 09:46:09.348,E:\Desenvolvimento\Projetos\Repositório GIT\NotaFiscal\EmissorNFe\forms\uMenu.pas=E:\Desenvolvimento\Projetos\Repositório GIT\NotaFiscal\EmissorNFe\forms\frmMenu.pas</Transaction>
+    <Transaction>2019/11/18 09:48:00.344,=E:\Desenvolvimento\Projetos\Repositório GIT\NotaFiscal\EmissorNFe\Unit1.pas</Transaction>
+    <Transaction>2019/11/18 09:49:11.165,E:\Desenvolvimento\Projetos\Repositório GIT\NotaFiscal\EmissorNFe\classes\Produto.pas=E:\Desenvolvimento\Projetos\Repositório GIT\NotaFiscal\EmissorNFe\Unit1.pas</Transaction>
+    <Transaction>2019/11/18 10:06:03.319,=E:\Desenvolvimento\Projetos\Repositório GIT\NotaFiscal\EmissorNFe\Unit1.pas</Transaction>
+    <Transaction>2019/11/18 10:06:51.569,E:\Desenvolvimento\Projetos\Repositório GIT\NotaFiscal\EmissorNFe\forms\dm.pas=E:\Desenvolvimento\Projetos\Repositório GIT\NotaFiscal\EmissorNFe\Unit1.pas</Transaction>
+    <Transaction>2019/11/18 10:06:51.569,E:\Desenvolvimento\Projetos\Repositório GIT\NotaFiscal\EmissorNFe\forms\dm.dfm=E:\Desenvolvimento\Projetos\Repositório GIT\NotaFiscal\EmissorNFe\Unit1.dfm</Transaction>
+    <Transaction>2019/11/18 10:23:46.703,=E:\Desenvolvimento\Projetos\Repositório GIT\NotaFiscal\EmissorNFe\Unit1.pas</Transaction>
+    <Transaction>2019/11/18 10:24:12.812,E:\Desenvolvimento\Projetos\Repositório GIT\NotaFiscal\EmissorNFe\dao\ProdutoDAO.pas=E:\Desenvolvimento\Projetos\Repositório GIT\NotaFiscal\EmissorNFe\Unit1.pas</Transaction>
+    <Transaction>2019/11/18 11:01:26.723,=E:\Desenvolvimento\Projetos\Repositório GIT\NotaFiscal\EmissorNFe\Unit1.pas</Transaction>
+    <Transaction>2019/11/18 11:02:11.874,E:\Desenvolvimento\Projetos\Repositório GIT\NotaFiscal\EmissorNFe\rn\ProdutoRN.pas=E:\Desenvolvimento\Projetos\Repositório GIT\NotaFiscal\EmissorNFe\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

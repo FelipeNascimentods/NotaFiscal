@@ -1,0 +1,20 @@
+unit ProdutoRN;
+
+interface
+  type
+    TProdutoRN = class
+      private
+
+      public
+        procedure pesquisarProduto;
+    end;
+implementation
+
+{ TProdutoRN }
+
+procedure TProdutoRN.pesquisarProduto;
+begin
+
+end;
+
+end.

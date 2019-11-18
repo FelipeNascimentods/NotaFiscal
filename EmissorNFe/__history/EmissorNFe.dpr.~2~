@@ -1,0 +1,15 @@
+program EmissorNFe;
+
+uses
+  Vcl.Forms,
+  uMenu in 'forms\uMenu.pas' {frmMenu},
+  Produto in 'classes\Produto.pas';
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TfrmMenu, frmMenu);
+  Application.Run;
+end.
