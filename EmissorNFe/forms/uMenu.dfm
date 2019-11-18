@@ -14,17 +14,19 @@ object frmMenu: TfrmMenu
   Menu = menu
   OldCreateOrder = False
   Position = poDesktopCenter
-  OnCreate = FormCreate
   PixelsPerInch = 96
   TextHeight = 13
   object menu: TMainMenu
-    Left = 592
-    Top = 128
+    Left = 680
+    Top = 8
     object Cadastrar1: TMenuItem
       Caption = 'Cadastrar'
-    end
-    object Pesquisar1: TMenuItem
-      Caption = 'Pesquisar'
+      object Produtos1: TMenuItem
+        Caption = 'Produtos'
+      end
+      object Impostos1: TMenuItem
+        Caption = 'Impostos'
+      end
     end
     object Emitir1: TMenuItem
       Caption = 'Emitir'
@@ -34,6 +36,10 @@ object frmMenu: TfrmMenu
       object NFCe1: TMenuItem
         Caption = 'NFCe'
       end
+    end
+    object Sair1: TMenuItem
+      Caption = 'Sair'
+      OnClick = Sair1Click
     end
   end
 end

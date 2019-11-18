@@ -17,11 +17,21 @@
     <Transaction>2019/11/18 09:48:00.344,=E:\Desenvolvimento\Projetos\Repositório GIT\NotaFiscal\EmissorNFe\Unit1.pas</Transaction>
     <Transaction>2019/11/18 09:49:11.165,E:\Desenvolvimento\Projetos\Repositório GIT\NotaFiscal\EmissorNFe\classes\Produto.pas=E:\Desenvolvimento\Projetos\Repositório GIT\NotaFiscal\EmissorNFe\Unit1.pas</Transaction>
     <Transaction>2019/11/18 10:06:03.319,=E:\Desenvolvimento\Projetos\Repositório GIT\NotaFiscal\EmissorNFe\Unit1.pas</Transaction>
-    <Transaction>2019/11/18 10:06:51.569,E:\Desenvolvimento\Projetos\Repositório GIT\NotaFiscal\EmissorNFe\forms\dm.pas=E:\Desenvolvimento\Projetos\Repositório GIT\NotaFiscal\EmissorNFe\Unit1.pas</Transaction>
     <Transaction>2019/11/18 10:06:51.569,E:\Desenvolvimento\Projetos\Repositório GIT\NotaFiscal\EmissorNFe\forms\dm.dfm=E:\Desenvolvimento\Projetos\Repositório GIT\NotaFiscal\EmissorNFe\Unit1.dfm</Transaction>
+    <Transaction>2019/11/18 10:06:51.569,E:\Desenvolvimento\Projetos\Repositório GIT\NotaFiscal\EmissorNFe\forms\dm.pas=E:\Desenvolvimento\Projetos\Repositório GIT\NotaFiscal\EmissorNFe\Unit1.pas</Transaction>
     <Transaction>2019/11/18 10:23:46.703,=E:\Desenvolvimento\Projetos\Repositório GIT\NotaFiscal\EmissorNFe\Unit1.pas</Transaction>
     <Transaction>2019/11/18 10:24:12.812,E:\Desenvolvimento\Projetos\Repositório GIT\NotaFiscal\EmissorNFe\dao\ProdutoDAO.pas=E:\Desenvolvimento\Projetos\Repositório GIT\NotaFiscal\EmissorNFe\Unit1.pas</Transaction>
     <Transaction>2019/11/18 11:01:26.723,=E:\Desenvolvimento\Projetos\Repositório GIT\NotaFiscal\EmissorNFe\Unit1.pas</Transaction>
     <Transaction>2019/11/18 11:02:11.874,E:\Desenvolvimento\Projetos\Repositório GIT\NotaFiscal\EmissorNFe\rn\ProdutoRN.pas=E:\Desenvolvimento\Projetos\Repositório GIT\NotaFiscal\EmissorNFe\Unit1.pas</Transaction>
+    <Transaction>2019/11/18 14:33:44.687,=E:\Desenvolvimento\Projetos\Repositório GIT\NotaFiscal\EmissorNFe\Unit1.pas</Transaction>
+    <Transaction>2019/11/18 14:34:06.283,E:\Desenvolvimento\Projetos\Repositório GIT\NotaFiscal\EmissorNFe\classes\Impostos.pas=E:\Desenvolvimento\Projetos\Repositório GIT\NotaFiscal\EmissorNFe\Unit1.pas</Transaction>
+    <Transaction>2019/11/18 14:41:12.702,=E:\Desenvolvimento\Projetos\Repositório GIT\NotaFiscal\EmissorNFe\Unit1.pas</Transaction>
+    <Transaction>2019/11/18 14:41:28.324,E:\Desenvolvimento\Projetos\Repositório GIT\NotaFiscal\EmissorNFe\uImpostosDAO.pas=E:\Desenvolvimento\Projetos\Repositório GIT\NotaFiscal\EmissorNFe\Unit1.pas</Transaction>
+    <Transaction>2019/11/18 14:41:38.228,E:\Desenvolvimento\Projetos\Repositório GIT\NotaFiscal\EmissorNFe\rn\uProdutoRN.pas=E:\Desenvolvimento\Projetos\Repositório GIT\NotaFiscal\EmissorNFe\rn\ProdutoRN.pas</Transaction>
+    <Transaction>2019/11/18 14:41:49.273,E:\Desenvolvimento\Projetos\Repositório GIT\NotaFiscal\EmissorNFe\dao\uProdutoDAO.pas=E:\Desenvolvimento\Projetos\Repositório GIT\NotaFiscal\EmissorNFe\dao\ProdutoDAO.pas</Transaction>
+    <Transaction>2019/11/18 14:42:19.935,E:\Desenvolvimento\Projetos\Repositório GIT\NotaFiscal\EmissorNFe\dao\uImpostosDAO.pas=E:\Desenvolvimento\Projetos\Repositório GIT\NotaFiscal\EmissorNFe\uImpostosDAO.pas</Transaction>
+    <Transaction>2019/11/18 15:41:33.082,=E:\Desenvolvimento\Projetos\Repositório GIT\NotaFiscal\EmissorNFe\Unit1.pas</Transaction>
+    <Transaction>2019/11/18 15:42:25.002,E:\Desenvolvimento\Projetos\Repositório GIT\NotaFiscal\EmissorNFe\forms\uCadastroProdutos.pas=E:\Desenvolvimento\Projetos\Repositório GIT\NotaFiscal\EmissorNFe\Unit1.pas</Transaction>
+    <Transaction>2019/11/18 15:42:25.002,E:\Desenvolvimento\Projetos\Repositório GIT\NotaFiscal\EmissorNFe\forms\uCadastroProdutos.dfm=E:\Desenvolvimento\Projetos\Repositório GIT\NotaFiscal\EmissorNFe\Unit1.dfm</Transaction>
   </Transactions>
 </BorlandProject>

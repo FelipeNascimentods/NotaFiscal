@@ -4,22 +4,24 @@ interface
 
 uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
-  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Produto, Vcl.Menus, ProdutoRN;
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Produto, Vcl.Menus, uProdutoRN;
 
 type
   TfrmMenu = class(TForm)
     menu: TMainMenu;
     Cadastrar1: TMenuItem;
-    Pesquisar1: TMenuItem;
     Emitir1: TMenuItem;
     NFe1: TMenuItem;
     NFCe1: TMenuItem;
-    procedure FormCreate(Sender: TObject);
+    Produtos1: TMenuItem;
+    Impostos1: TMenuItem;
+    Sair1: TMenuItem;
+    procedure Sair1Click(Sender: TObject);
   private
     { Private declarations }
   public
     prod: TProduto;
-    RN: ProdutoRN;
+    RN: TProdutoRN;
   end;
 
 var
@@ -29,9 +31,9 @@ implementation
 
 {$R *.dfm}
 
-procedure TfrmMenu.FormCreate(Sender: TObject);
+procedure TfrmMenu.Sair1Click(Sender: TObject);
 begin
-  prod := TProdutoRN.Create;
+  close;
 end;
 
 end.
