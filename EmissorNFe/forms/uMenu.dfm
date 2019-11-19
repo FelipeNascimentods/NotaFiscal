@@ -23,6 +23,7 @@ object frmMenu: TfrmMenu
       Caption = 'Cadastrar'
       object Produtos1: TMenuItem
         Caption = 'Produtos'
+        OnClick = Produtos1Click
       end
       object Impostos1: TMenuItem
         Caption = 'Impostos'

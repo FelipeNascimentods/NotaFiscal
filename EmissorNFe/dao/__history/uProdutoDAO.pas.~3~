@@ -1,0 +1,73 @@
+unit uProdutoDAO;
+
+interface
+
+uses dm, ZAbstractRODataset, ZAbstractDataset, ZDataset, Produto, System.SysUtils, ZConnection;
+
+  type
+    TProdutoDAO = class
+      private
+        zquery: TZQuery;
+      public
+        procedure pesquisarProduto;
+
+        function inserirProduto(produto: TProduto): boolean;
+    end;
+
+implementation
+
+{ TProdutoDAO }
+
+function TProdutoDAO.inserirProduto(produto: TProduto): boolean;
+var
+  SQL: string;
+  zSet: TZQuery;
+begin
+  try
+    zSet            := TZQuery.Create(zquery);
+    zSet.Connection := dmConexao.conexao;
+
+    dmConexao.conexao.StartTransaction;
+    try
+      SQL :=
+      ' insert into produto (     '+
+      '   produto.descricao,      '+
+      '   produto.codigo,         '+
+      '   produto.preco )         '+
+      ' values (                '''+
+          produto.descricao +''', '+
+          IntToStr(produto.codigo) +',   '+
+          FloatToStr(produto.preco) +')   ';
+
+      zSet.Close;
+      zSet.SQL.Clear;
+      zSet.SQL.Text := SQL;
+      zSet.ExecSQL;
+
+      dmConexao.conexao.Commit;
+    except
+      dmConexao.conexao.Rollback;
+    end;
+  finally
+    zSet.Free;
+    result := true;
+  end;
+end;
+
+procedure TProdutoDAO.pesquisarProduto;
+var
+  SQL: string;
+  zGet: TZQuery;
+begin
+  zGet := TZQuery.Create(zquery);
+  zGet.Connection := dmConexao.conexao;
+
+  SQL := 'select * from produto';
+
+  zGet.Close;
+  zGet.SQL.Clear;
+  zGet.SQL.Text := SQL;
+  zGet.Open;
+end;
+
+end.

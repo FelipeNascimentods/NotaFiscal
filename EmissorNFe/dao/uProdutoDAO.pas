@@ -2,7 +2,7 @@ unit uProdutoDAO;
 
 interface
 
-uses dm, ZAbstractRODataset, ZAbstractDataset, ZDataset, Produto, System.SysUtils;
+uses dm, ZAbstractRODataset, ZAbstractDataset, ZDataset, Produto, System.SysUtils, ZConnection;
 
   type
     TProdutoDAO = class
@@ -59,7 +59,7 @@ var
   SQL: string;
   zGet: TZQuery;
 begin
-  zGet            := TZQuery.Create(zquery);
+  zGet := TZQuery.Create(zquery);
   zGet.Connection := dmConexao.conexao;
 
   SQL := 'select * from produto';
@@ -68,6 +68,8 @@ begin
   zGet.SQL.Clear;
   zGet.SQL.Text := SQL;
   zGet.Open;
+
+  dmConexao.zq := zGet;
 end;
 
 end.

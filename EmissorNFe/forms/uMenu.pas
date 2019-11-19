@@ -17,6 +17,7 @@ type
     Impostos1: TMenuItem;
     Sair1: TMenuItem;
     procedure Sair1Click(Sender: TObject);
+    procedure Produtos1Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -30,6 +31,14 @@ var
 implementation
 
 {$R *.dfm}
+
+uses uCadastroProdutos;
+
+procedure TfrmMenu.Produtos1Click(Sender: TObject);
+begin
+  Application.CreateForm(TfrmCadastroProduto, frmCadastroProduto);
+  frmCadastroProduto.ShowModal;
+end;
 
 procedure TfrmMenu.Sair1Click(Sender: TObject);
 begin

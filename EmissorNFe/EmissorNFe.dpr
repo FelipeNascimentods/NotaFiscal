@@ -18,6 +18,5 @@ begin
   Application.MainFormOnTaskbar := True;
   Application.CreateForm(TfrmMenu, frmMenu);
   Application.CreateForm(TdmConexao, dmConexao);
-  Application.CreateForm(TfrmCadastroProduto, frmCadastroProduto);
   Application.Run;
 end.
